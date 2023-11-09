@@ -1,0 +1,46 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+
+#carouselExampleFade {
+    width: 40%; 
+    margin: 20px 0 20px 100px; /* (superior, derecho, inferior, izquierdo) */
+}
+
+.carousel-inner {
+    text-align: center; 
+}
+
+.carousel-item img {
+    max-width: 100%; 
+    height: auto;
+}
+
+footer {
+    margin-top: auto; /* Coloca el pie de página en la parte inferior */
+}
+.list-group-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Alinea las columnas un poco a la derecha */
+    margin-left: 100px; /* Margen izquierdo para ajustar la posición */
+}
+.list-group-horizontal2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Alinea las columnas un poco a la derecha */
+    margin-left: 200px; /* Margen izquierdo para ajustar la posición */
+}
+.list-group-item {
+    text-align: center;
+    width: 200px; /* Ajusta el ancho de las columnas según tus necesidades */
+}
